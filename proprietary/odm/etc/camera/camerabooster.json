@@ -123,7 +123,38 @@
             "name": "intercept_restart_list",
             "config": [
                 "com.xiaomi.bsp.gps.nps",
-                "com.android.settings:remote"
+                "com.android.settings",
+                "com.milink.runtime",
+                "com.xiaomi.account",
+                "com.xiaomi.aicr",
+                "com.tencent.mm",
+                "com.tencent.mobileqq",
+                "com.xiaomi.xmsf",
+                "com.miui.systemAdSolution",
+                "com.ss.android.lark.kami", 
+                "com.android.mms",
+                "com.miui.weather2",
+                "com.xiaomi.market",
+                "com.android.htmlviewer:remote",
+                "com.android.htmlviewer",
+                "com.xiaomi.finddevice",
+                "com.xiaomi.xmsf:services",
+                "com.miui.cloudservice",
+                "com.xiaomi.aicr:searchDataService",
+                "com.xiaomi.aicr:instruction",
+                "com.miui.mediaeditor",
+                "com.miui,cloudservice:galleryproxy",
+                "com.xiaomi.simactivate.service",
+                "com.baidu.input_mi",
+                "com.xiaomi.registration",
+                "com.milink.service:audio",
+                "com.miui.wmsvc",
+                "com.milink.service:provider",
+                "com.android.permissioncontroller",
+                "com.android.settings:remote",
+                "com.xiaomi.market:FinApp0",
+                "com.xiaomi.xmsf:kit7",
+                "com.miui.systemAdSolution"
             ]
         },
         {
@@ -194,7 +225,7 @@
         }
     ],
     "oom_4Gmem": {
-            "oom_level": "18432:0,40960:100,51200:200,66560:250,66560:800,66560:950"
+            "oom_level": "51200:0,89600:100,128000:200,179200:251,262144:701,393216:800"
         },
     "threshold_4Gmem": {
             "skip_task": 3,
@@ -202,8 +233,8 @@
             "adj_threshold": 701,
             "lowAdj_threshold": 50,
             "lowerAdj_freeMem_threshold": 87040,
-            "cam_boost_threshold": 1156000,
-            "3rdcam_boost_threshold": 1156000,
+            "cam_boost_threshold": 1364000,
+            "3rdcam_boost_threshold": 1364000,
             "3rd_skip_task_lower": 1,
             "3rd_lowAdj_threshold": 50,
             "kill_tag": 15,
@@ -235,6 +266,7 @@
                 "com.ss.android.lark.kami:wschannel",
                 "com.phonetest.application:CameraMemoryWatcher",
                 "com.android.mms:mms_service",
+                "com.milink.runtime",
                 "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
                 "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1",
                 "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:2",
