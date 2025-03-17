@@ -1124,7 +1124,6 @@ PRODUCT_PACKAGES += \
     libeffectproxy \
     libldnhncr \
     libreverbwrapper \
-    libshoebox \
     libvisualizer \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \

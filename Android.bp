@@ -17972,6 +17972,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.nfc@1.0",
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",
@@ -18639,33 +18640,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libaudioutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libshoebox",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libshoebox.so",
-            ],
-            shared_libs: [
                 "libcutils",
                 "liblog",
                 "libc++",
